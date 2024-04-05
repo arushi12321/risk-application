@@ -1,0 +1,54 @@
+.risk-library-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 50px;
+    position: fixed;
+    top: 40px;
+    left: 300px;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .row {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .card {
+    width: 500px;
+    cursor: pointer;
+    height: 200px;
+  }
+  
+  .report-card {
+    width: 500px;
+    cursor: pointer;
+    height: 200px;
+ 
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+      }
+  
+  .card-content h2 {
+    margin-bottom: 10px;
+  }
+  
+  .card-content p {
+    margin-bottom: 5px;
+  }
+  .count-row {
+    display: flex;
+    gap: 16px;
+  }
+  

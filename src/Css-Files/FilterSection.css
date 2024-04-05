@@ -1,0 +1,30 @@
+.filter-container {
+  display: flex;
+  align-items: center;
+}
+
+.filter-icon {
+  margin-right: 8px;
+  font-size: large;
+}
+
+.filter-select {
+  width: 150px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid black;
+  outline: none;
+  appearance: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: grey;
+}
+
+.filter-select option[disabled] {
+  display: none;
+}
+
+.filter-select option:first-child {
+  display: none;
+}

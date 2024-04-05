@@ -1,0 +1,20 @@
+.assessment-container {
+  display: flex;
+}
+
+.assessment-content {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.left-pane {
+  flex: 4;
+  margin-right: 400px;
+  width: 500px;
+}
+
+.right-pane {
+  width: 447px;
+}

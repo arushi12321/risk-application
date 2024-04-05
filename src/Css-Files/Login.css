@@ -1,0 +1,76 @@
+/* styles.css */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap");
+
+.container {
+  font-family: "work sans";
+  max-width: 600px;
+  font-size: large;
+  margin: 250px auto;
+  margin-right: 700px;
+  padding: 20px;
+  border: 6px solid black;
+  border-radius: 5px;
+  max-height: 1300px;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-right: 300px;
+  color: #0056b3;
+}
+
+input {
+  width: 90%;
+  margin-top: 10px;
+  padding: 10px;
+  color: black;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+label {
+  color: #0056b3;
+
+  font-weight: bold;
+}
+button {
+  display: block;
+  /* margin-right: 100px; */
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.success {
+  color: green;
+  margin-bottom: 10px;
+}
+
+.register-link {
+  margin-top: 10px;
+}
+
+.register-link a {
+  color: #0056b3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}

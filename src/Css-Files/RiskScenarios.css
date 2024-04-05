@@ -1,0 +1,44 @@
+.risk-scenarios-page {
+  display: flex;
+}
+
+.options-container {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.options-row {
+  margin-left: 70px;
+  display: flex;
+  flex-direction: space-between;
+  padding: 20px;
+  margin-top: 30px;
+  gap: 20px;
+}
+.options-row1 {
+  margin-left: 70px;
+  display: flex;
+  flex-direction: space-between;
+  gap: 10px;
+  /* padding: 20px; */
+  margin-top: 30px;
+}
+
+.risk-scenarios-container {
+  padding: 20px;
+  overflow-y: auto;
+}
+.add-risk-button {
+  background-color: "#150E7F";
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-risk-button:hover {
+  background-color: blueviolet;
+}
